@@ -11,8 +11,6 @@ This project  build a serverless web application using AWS services like Lambda,
   - [Step 4: Configure S3 Bucket for Public Access]
   - [Step 5: Update `index.html` to Call API]
   - [Step 6: Verify the Application]
-- [Cleanup](#cleanup)
-- [License](#license)
 
 
 ## Architecture
