@@ -1,6 +1,6 @@
 # Serverless Web Application with AWS Lambda, API Gateway, DynamoDB, and S3
 
-This project demonstrates how to build a serverless web application using AWS services like Lambda, API Gateway, DynamoDB, and S3. The application allows users to interact with a web interface hosted on S3 and perform CRUD operations on a DynamoDB table through API Gateway and Lambda.
+This project  build a serverless web application using AWS services like Lambda, API Gateway, DynamoDB, and S3. The application allows users to interact with a web interface hosted on S3 and perform CRUD operations on a DynamoDB table through API Gateway and Lambda.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -15,12 +15,6 @@ This project demonstrates how to build a serverless web application using AWS se
 - [Cleanup](#cleanup)
 - [License](#license)
 
-## Prerequisites
-
-Before you begin, ensure you have the following prerequisites:
-- An AWS account with appropriate permissions to create and manage resources such as S3, Lambda, API Gateway, DynamoDB, and IAM.
-- AWS CLI installed and configured with your AWS credentials.
-- Basic knowledge of AWS services and serverless architecture.
 
 ## Architecture
 
@@ -155,19 +149,7 @@ Here's an example index.html:
 - Ensure that the web application loads correctly.
 - Verify that the API calls to DynamoDB work as expected by interacting with the web application.
 
-By following these steps, you will have successfully automated the deployment of your serverless web application using AWS CloudFormation, Lambda, API Gateway, DynamoDB, and S3.
-
-### Cleanup
-To clean up the resources created by this project, delete the CloudFormation stack:
-1. Open the AWS Management Console and navigate to the CloudFormation service.
-2. Select your stack and click "Delete".
-3. Confirm the deletion to clean up all the resources created by the stack.
-
-### License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-This `README.md` provides a clear and detailed guide for setting up, verifying, and cleaning up the serverless web application. Make sure to replace placeholders such as `YOUR_API_ID` and `YOUR_REGION` with the actual values from your CloudFormation outputs.
+successfully automated the deployment of your serverless web application using AWS CloudFormation, Lambda, API Gateway, DynamoDB, and S3.
 
 
 ### Additional Resources
