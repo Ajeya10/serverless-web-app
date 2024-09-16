@@ -5,12 +5,11 @@ This project  build a serverless web application using AWS services like Lambda,
 ## Table of Contents
 - [Architecture]
 - [Setup Instructions]
-  - [Step 1: Clone the Repository]
-  - [Step 2: Deploy the CloudFormation Stack]
-  - [Step 3: Upload Static Files to S3]
-  - [Step 4: Configure S3 Bucket for Public Access]
-  - [Step 5: Update `index.html` to Call API]
-  - [Step 6: Verify the Application]
+  - [Step 1: Deploy the CloudFormation Stack]
+  - [Step 1: Upload Static Files to S3]
+  - [Step 3: Configure S3 Bucket for Public Access]
+  - [Step 4: Update `index.html` to Call API]
+  - [Step 5: Verify the Application]
 
 
 ## Architecture
